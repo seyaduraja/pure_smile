@@ -6,7 +6,7 @@ import {
   Facebook,
   Twitter,
 } from "lucide-react";
-import Button from "../Components/Button";
+
 
 const ContactFooter = () => (
   <footer className="bg-[#1A1A1A] text-white pt-20 pb-10 relative overflow-hidden">

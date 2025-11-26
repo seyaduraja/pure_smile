@@ -12,7 +12,7 @@ const MeetExperts = () => (
       <div className="space-y-12">
         {/* Expert 1 - Based on Image Input */}
         <ExpertCard 
-          name="Dr. Pavithra Balasubramani" 
+          name="Dr. Bharath Kumar B MDS" 
           title="Root Canal Specialist"
           role="Endodontist"
           image="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -20,9 +20,9 @@ const MeetExperts = () => (
         
         {/* Expert 2 - Fictional Counterpart to show flow */}
         <ExpertCard 
-          name="Dr. James Wilson" 
-          title="Implantologist & Surgeon"
-          role="Dental Surgeon"
+          name="Dr. Pavithra Balasubramani MDS" 
+          title="Prosthodonist & Implanotologist"
+          role="Prosthodonist & Implanotologist"
           image="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
           isReversed={true}
         />

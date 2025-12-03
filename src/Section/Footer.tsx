@@ -69,25 +69,8 @@ const ContactFooter = () => (
         </div>
 
         {/* Right Side: Form */}
-        {/* <div className="bg-white rounded-3xl p-8 text-[#3E2723]">
-          <h3 className="text-2xl font-serif mb-6">Request Appointment</h3>
-          <form className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <input type="text" placeholder="First Name" className="w-full bg-[#FDFBF7] border border-[#E5E0D5] p-3 rounded-xl focus:outline-none focus:border-[#C5A059]" />
-              <input type="text" placeholder="Last Name" className="w-full bg-[#FDFBF7] border border-[#E5E0D5] p-3 rounded-xl focus:outline-none focus:border-[#C5A059]" />
-            </div>
-            <input type="email" placeholder="Email Address" className="w-full bg-[#FDFBF7] border border-[#E5E0D5] p-3 rounded-xl focus:outline-none focus:border-[#C5A059]" />
-            <select className="w-full bg-[#FDFBF7] border border-[#E5E0D5] p-3 rounded-xl focus:outline-none focus:border-[#C5A059] text-[#3E2723]/60">
-              <option>Select Service</option>
-              <option>Root Canal</option>
-              <option>Cosmetic</option>
-              <option>General Checkup</option>
-            </select>
-            <textarea rows= {3} placeholder="Message (Optional)" className="w-full bg-[#FDFBF7] border border-[#E5E0D5] p-3 rounded-xl focus:outline-none focus:border-[#C5A059]"></textarea>
-            <Button variant="primary" className="w-full justify-center">Submit Request</Button>
-          </form>
-        </div> */}
-        <div>
+    
+        <div className="rounded-md overflow-hidden  border-2 border-[#C5A059] "> 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9529681341423!2d80.2055439748706!3d12.974860014807227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d48248d8b13%3A0xc1464d1f2e967d!2sPure%20Smile%20Dental%20and%20Implant%20clinic!5e0!3m2!1sen!2sin!4v1764181465835!5m2!1sen!2sin"
             className="w-full h-full border-0"

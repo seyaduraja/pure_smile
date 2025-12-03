@@ -1,20 +1,19 @@
-import Navbar from './Section/NavBar';
-import Hero from './Section/HeroSection';
-import MeetExperts from './Section/ExpertSection';
-import ServicesSection from './Section/ServicesSection';
-import ContactFooter from './Section/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+
+const HomePage = React.lazy(() => import("./pages/HomePage"));
+const AppointmentPage = React.lazy(() => import("./pages/Appointment"));
 
 
 
 const App = () => {
   return (
-    <div className="font-sans antialiased text-[#3E2723] bg-[#FDFBF7]">  
-      <Navbar />
-      <Hero />
-      <MeetExperts/>
-      <ServicesSection/>
-      <ContactFooter/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path = '/Appointment' element = {<AppointmentPage/>} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
